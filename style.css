@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* Set default styles for body */
+body {
+  height: 100%;
+  margin: 50px;
+  padding: 0;
+  background-image: url("images/jigsawequinehorse.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+/* Apply styles for .margin-top, .title, .subTitle, .text, and :any-link */
+.margin-top {
+  margin-top: 700px;
+}
+
+.title {
+  background-color: rgba(255, 255, 255, .5);
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+
+.subTitle {
+  background-color: rgba(255, 255, 255, .6);
+  font-family: 'Prata', serif; 
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, .5);
+  font-family: 'Prata', serif; 
+  font-size: 20px;
+  color: white;
+}
+
+:any-link {
+  text-decoration: none;
+  color: white;
+}
